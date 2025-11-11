@@ -127,9 +127,10 @@ fun ProductCard(
                         color = MowiOrange
                     )
 
-                    if (product.hasDiscount && product.formattedOriginalPrice != null) {
+                    val originalPrice = product.formattedOriginalPrice
+                    if (product.hasDiscount && originalPrice != null) {
                         Text(
-                            text = product.formattedOriginalPrice,
+                            text = originalPrice,
                             style = MaterialTheme.typography.bodySmall,
                             color = TextSecondary,
                             textDecoration = TextDecoration.LineThrough
