@@ -89,7 +89,7 @@ fun AuthScreen(
                         selectedTabIndex = if (isLoginTab) 0 else 1,
                         containerColor = Color.Transparent,
                         indicator = { tabPositions ->
-                            TabRowDefaults.SecondaryIndicator(
+                            TabRowDefaults.Indicator(
                                 Modifier.tabIndicatorOffset(tabPositions[if (isLoginTab) 0 else 1]),
                                 color = MowiOrange
                             )

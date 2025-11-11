@@ -81,7 +81,7 @@ fun CategoryCard(
 private fun getCategoryIcon(iconName: String): ImageVector {
     return when (iconName) {
         "smartphone" -> Icons.Default.Smartphone
-        "checkroom" -> Icons.Default.CheckroomOutlined
+        "checkroom" -> Icons.Default.Checkroom
         "home" -> Icons.Default.Home
         "pets" -> Icons.Default.Pets
         "child_care" -> Icons.Default.ChildCare
